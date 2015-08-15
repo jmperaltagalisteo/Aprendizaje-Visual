@@ -1,0 +1,62 @@
+/*------Contorno------*/
+		/*-----Puntos-----*/
+
+		//Palo central
+		/*palo_central = 35;
+		yc = 450;
+		for(var i=0;i<palo_central;i++)
+		{
+			$('canvas').drawArc({
+  				fillStyle: 'black',
+				x: 350, y: yc = yc - 10,
+				radius: CONTORNO
+			});
+		}
+
+		//Palo izquierdo
+		palo_izq = 36;
+		xi = 170;
+		yi = 270;
+		for(var i=0;i<palo_izq;i++)
+		{
+			$('canvas').drawArc({
+  				fillStyle: 'black',
+				x: xi = xi + 5, y: yi = yi - 5,
+				radius: CONTORNO
+			});
+		}
+		
+		//Palo central
+		palo_central = 8;
+		yc = 500;
+		for(var i=0;i<palo_central;i++)
+		{
+			$('canvas').drawArc({
+  				fillStyle: 'white',
+				x: 355, y: yc = yc - 45,
+				radius: PUNTOS
+			});
+		}
+
+		//Palo izquierdo
+		palo_izq = 6;
+		xi = 135;//135
+		yi = 305;//305
+		for(var i=0;i<palo_izq;i++)
+		{
+			$('canvas').drawArc({
+  				fillStyle: 'white',
+				x: xi = xi + 36, y: yi = yi - 38,
+				radius: PUNTOS
+			});
+		}
+
+		//Flecha
+		$('canvas').rotateCanvas({
+  			rotate: 225,
+  			x: 178, y: 205
+			})
+				.drawImage({
+		  			source: '../../html/images/numeros/flecha.png',
+		  			x: 140, y: 150
+				});*/
